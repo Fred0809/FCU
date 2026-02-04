@@ -4738,7 +4738,7 @@
 	)
 	(rectangle
 		(start 24.13 128.27)
-		(end 170.18 215.9)
+		(end 170.18 196.215)
 		(stroke
 			(width 0)
 			(type default)
@@ -5391,16 +5391,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 49.53) (xy 128.27 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d315083-ef76-428b-9151-17601d9fdf24")
-	)
-	(wire
-		(pts
 			(xy 143.51 113.03) (xy 146.05 113.03)
 		)
 		(stroke
@@ -5461,7 +5451,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 181.61) (xy 92.71 181.61)
+			(xy 92.71 182.88) (xy 93.98 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5478,16 +5468,6 @@
 			(type default)
 		)
 		(uuid "0f5fc3da-2dba-476c-a0fc-a8e4fe940537")
-	)
-	(wire
-		(pts
-			(xy 140.97 49.53) (xy 140.97 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f8cf191-6b43-4c41-8021-23b8a1eefb1e")
 	)
 	(wire
 		(pts
@@ -5528,6 +5508,16 @@
 			(type default)
 		)
 		(uuid "120670e2-6d2a-452c-a71e-556682837e6f")
+	)
+	(wire
+		(pts
+			(xy 128.27 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a5d548-29f3-44d3-9e92-8786339bb6fe")
 	)
 	(wire
 		(pts
@@ -5671,16 +5661,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 53.34) (xy 140.97 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f8174db-07ba-4181-b9dd-8cb2eede1ab2")
-	)
-	(wire
-		(pts
 			(xy 39.37 50.8) (xy 41.91 50.8)
 		)
 		(stroke
@@ -5818,6 +5798,16 @@
 			(type default)
 		)
 		(uuid "29c7b351-8a19-42e8-bfca-fd7c5b171233")
+	)
+	(wire
+		(pts
+			(xy 140.97 50.8) (xy 140.97 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7c0dbf-895d-4f10-8db8-68bb7b861422")
 	)
 	(wire
 		(pts
@@ -6211,6 +6201,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 49.53) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533135b3-9aa9-4441-b187-419cbc87f57f")
+	)
+	(wire
+		(pts
 			(xy 78.74 26.67) (xy 80.01 26.67)
 		)
 		(stroke
@@ -6218,6 +6218,16 @@
 			(type default)
 		)
 		(uuid "53723ffc-df5a-4146-9fc0-8db20f51bb67")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 140.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f17bdf-5425-4ebb-98ab-8cc5b31323d6")
 	)
 	(wire
 		(pts
@@ -6461,7 +6471,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 181.61) (xy 76.2 181.61)
+			(xy 76.2 182.88) (xy 77.47 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6698,16 +6708,6 @@
 			(type default)
 		)
 		(uuid "83fd08db-a995-45ab-bcdf-c36a692cca9b")
-	)
-	(wire
-		(pts
-			(xy 135.89 49.53) (xy 140.97 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843c4a84-be11-4849-acf6-b3afc109cda0")
 	)
 	(wire
 		(pts
@@ -7181,7 +7181,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 187.96) (xy 85.09 187.96)
+			(xy 85.09 189.23) (xy 86.36 189.23)
 		)
 		(stroke
 			(width 0)
@@ -7471,7 +7471,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 186.69) (xy 83.82 187.96)
+			(xy 85.09 187.96) (xy 85.09 189.23)
 		)
 		(stroke
 			(width 0)
@@ -7598,6 +7598,16 @@
 			(type default)
 		)
 		(uuid "d5be5ea1-92d8-4039-8f15-4e0f5ad47afd")
+	)
+	(wire
+		(pts
+			(xy 140.97 44.45) (xy 139.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7076fbd-b036-4af3-a009-01fcbf8aa982")
 	)
 	(wire
 		(pts
@@ -7778,6 +7788,16 @@
 			(type default)
 		)
 		(uuid "e455f663-342e-4b2a-9fe8-9b037681411a")
+	)
+	(wire
+		(pts
+			(xy 127 49.53) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b685a6-2190-409b-8fbc-09aba21dea91")
 	)
 	(wire
 		(pts
@@ -8039,6 +8059,16 @@
 		)
 		(uuid "ffa34360-1d75-46b5-8d48-b9d96db7d867")
 	)
+	(label "MAG_C1"
+		(at 128.27 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d159b1e-e12e-4dba-97a6-10817531cdea")
+	)
 	(label "D+"
 		(at 62.23 147.32 0)
 		(effects
@@ -8048,6 +8078,16 @@
 			(justify left bottom)
 		)
 		(uuid "4194689c-0064-4da7-8144-3abe2d7f1cef")
+	)
+	(label "MAG_INT"
+		(at 128.27 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c877acf-8728-4154-a92a-e692387d8113")
 	)
 	(label "D-"
 		(at 62.23 149.86 0)
@@ -8157,6 +8197,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 93.98 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15b572fd-1551-4c51-ab66-e4b2ac46a13e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.4728 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA"
 		(shape bidirectional)
 		(at 71.12 100.33 0)
@@ -8203,7 +8265,7 @@
 	)
 	(global_label "3V3_FCU"
 		(shape output)
-		(at 85.09 187.96 0)
+		(at 86.36 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8213,7 +8275,7 @@
 		)
 		(uuid "22950df2-d83c-421f-998c-30ec7560e497")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.2395 187.96 0)
+			(at 97.5095 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,28 +8347,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS_3V3"
-		(shape input)
-		(at 92.71 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3eff7bbe-b2a2-428d-88c9-86ecc6a50b15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.069 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8509,28 +8549,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 74.93 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d1fbfa1-39e3-40da-b7ba-8a9be3c9e462")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.4372 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 111.76 176.53 180)
@@ -8643,7 +8661,7 @@
 	)
 	(global_label "MAG_INT"
 		(shape input)
-		(at 139.7 53.34 180)
+		(at 139.7 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8653,7 +8671,7 @@
 		)
 		(uuid "a26a2e5b-c89e-49e8-b75b-a12646488386")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.0343 53.34 0)
+			(at 129.0343 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,6 +8853,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_3V3"
+		(shape input)
+		(at 76.2 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bff805cb-504e-45de-99f5-be33291a0d08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.841 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11479,7 +11519,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 49.53 270)
+		(at 133.35 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11487,7 +11527,7 @@
 		(dnp no)
 		(uuid "63b08df1-b515-41ff-96dc-8451f7833916")
 		(property "Reference" "R31"
-			(at 128.27 47.498 90)
+			(at 129.54 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11536,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 132.334 47.498 90)
+			(at 133.604 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +11545,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 47.752 90)
+			(at 133.35 49.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +11554,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 49.53 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11523,7 +11563,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 49.53 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13717,7 +13757,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAT54CW")
-		(at 83.82 181.61 0)
+		(at 85.09 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13726,7 +13766,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf7c72d6-be12-486f-ae91-ba6133749cb1")
 		(property "Reference" "D3"
-			(at 83.82 175.26 0)
+			(at 85.09 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,7 +13774,7 @@
 			)
 		)
 		(property "Value" "BAT54CWFILMY"
-			(at 83.82 177.8 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13742,7 +13782,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 85.725 178.435 0)
+			(at 86.995 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13752,7 +13792,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
-			(at 81.788 181.61 0)
+			(at 83.058 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +13801,7 @@
 			)
 		)
 		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
-			(at 83.82 181.61 0)
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
