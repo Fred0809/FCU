@@ -2992,6 +2992,305 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:ESP32-C3-MINI-1-N4X")
+		(at 76.2 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42807946-59af-413a-8b4f-784299cf852a")
+		(property "Reference" "IC4"
+			(at 94.8533 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-C3-MINI-1-N4X"
+			(at 94.8533 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ESP32C3MINI1N4X"
+			(at 105.41 153.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.pdf"
+			(at 105.41 253.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Integrated, Trace Surface Mount , 3V ~ 3.6V , -40C ~ 85C (TA)"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.55"
+			(at 105.41 453.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 105.41 553.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 105.41 653.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Espressif Systems"
+			(at 105.41 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESP32-C3-MINI-1-N4X"
+			(at 105.41 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "be1682b1-e0b7-47e1-8210-bd26b3a981ac")
+		)
+		(pin "20"
+			(uuid "510b3511-14c4-4188-976d-3fcee33f670f")
+		)
+		(pin "33"
+			(uuid "f0e0e394-2d68-4333-9571-e31c15bf0858")
+		)
+		(pin "13"
+			(uuid "0f25a716-dd63-4afa-b991-f6ec212e542c")
+		)
+		(pin "10"
+			(uuid "bc590802-ab6f-47e5-8551-3f02a3482c77")
+		)
+		(pin "29"
+			(uuid "05d6dacd-2787-4992-8ea0-af4199dd955a")
+		)
+		(pin "16"
+			(uuid "1e5ecf68-838a-4a19-a53a-0ddb1d67c142")
+		)
+		(pin "14"
+			(uuid "6e475cdc-f36b-457c-920f-70d8fcabc113")
+		)
+		(pin "4"
+			(uuid "ed06ca24-76d3-414e-bdcb-90ad5b9c829f")
+		)
+		(pin "34"
+			(uuid "3045d8b6-9dc6-429b-8dfa-e0fbd2294ae0")
+		)
+		(pin "25"
+			(uuid "f3ff827c-9910-44e4-9ceb-7785d55910f6")
+		)
+		(pin "24"
+			(uuid "88ca1d17-f3a1-4ad0-8433-e4fba7cdc56f")
+		)
+		(pin "28"
+			(uuid "1080532b-94ea-4145-9a84-c7fd7572fe52")
+		)
+		(pin "35"
+			(uuid "1b84f84b-fc8e-4b45-ae2e-c267d407cbdc")
+		)
+		(pin "9"
+			(uuid "ca4f0483-2892-4077-818f-8ce7173b04de")
+		)
+		(pin "6"
+			(uuid "1d1e7fda-0aad-4b05-9d55-263236623d71")
+		)
+		(pin "17"
+			(uuid "b48ca778-a14c-4aaa-b574-15633c6255f0")
+		)
+		(pin "12"
+			(uuid "6907f00b-cc3b-4ebf-9c44-def5ef93879d")
+		)
+		(pin "32"
+			(uuid "5ca33377-738c-4767-8031-ac580768da06")
+		)
+		(pin "5"
+			(uuid "fe0c4639-0df1-4aff-8049-018494ee3055")
+		)
+		(pin "15"
+			(uuid "b34cf6e3-92a4-438b-bf07-ee37d559cd73")
+		)
+		(pin "7"
+			(uuid "cc671d6f-ff9f-4a08-be7b-4e8f3d9b3353")
+		)
+		(pin "19"
+			(uuid "b863928c-9714-4650-a1ff-cc8c14fa94b6")
+		)
+		(pin "21"
+			(uuid "d8df1fd2-3a5a-4b8d-b03f-58dafb212cd5")
+		)
+		(pin "22"
+			(uuid "c5c35279-bc24-4440-ae24-c0abf93a7060")
+		)
+		(pin "23"
+			(uuid "651696f7-cb8c-47d1-97b7-30a48808a664")
+		)
+		(pin "3"
+			(uuid "667aab2d-dc58-4bba-baf7-d1a3cddd2007")
+		)
+		(pin "1"
+			(uuid "37e58b31-5484-4d75-80df-e6efee58a7f4")
+		)
+		(pin "11"
+			(uuid "937ddf0a-a799-4bd6-a98d-8c95af439a10")
+		)
+		(pin "58"
+			(uuid "132e9a70-ca2f-4ba6-89f3-d5390e6effed")
+		)
+		(pin "36"
+			(uuid "8e940f00-016f-4498-9986-95336a17a86d")
+		)
+		(pin "61"
+			(uuid "d3541b79-a7cf-481b-a352-22f109b272ba")
+		)
+		(pin "42"
+			(uuid "bfcfc8de-763b-468e-a195-05f834b825be")
+		)
+		(pin "43"
+			(uuid "05fb514a-98cc-4eba-b7b3-f8fc665ffa65")
+		)
+		(pin "48"
+			(uuid "33359e21-7b5b-45ed-8521-d17b9c5988dc")
+		)
+		(pin "40"
+			(uuid "a5bb9181-1caf-4653-bfe6-7818c9429e2b")
+		)
+		(pin "2"
+			(uuid "a1b5290c-5b66-480d-8315-f90c31a5b2f0")
+		)
+		(pin "49"
+			(uuid "7a670a74-ab53-484d-8f1c-c593593cb343")
+		)
+		(pin "50"
+			(uuid "9c79e0f5-d51a-49fd-a718-39b73cda4c3a")
+		)
+		(pin "37"
+			(uuid "67661145-5f51-49e2-b42f-05294dfab7d4")
+		)
+		(pin "41"
+			(uuid "d87eb173-4dd9-4edc-9dc0-410885e03a1d")
+		)
+		(pin "45"
+			(uuid "3b240213-22c5-4d84-9f30-59e797943b19")
+		)
+		(pin "52"
+			(uuid "6d517b50-957e-4c68-ba7b-cfc2a51d750f")
+		)
+		(pin "53"
+			(uuid "b228bbe5-574d-471c-8f72-358ae0699d71")
+		)
+		(pin "54"
+			(uuid "690f6591-b669-48ad-8f01-fe56c31865b2")
+		)
+		(pin "44"
+			(uuid "c235f3a6-eb4d-41c8-b471-87a45a2ac6e1")
+		)
+		(pin "47"
+			(uuid "a42ee809-be92-4e45-960e-d25975c0011b")
+		)
+		(pin "55"
+			(uuid "d49851a1-b114-4877-b49e-83deee54c70f")
+		)
+		(pin "51"
+			(uuid "0335aa37-d8f8-4126-9d87-3e9431617d31")
+		)
+		(pin "56"
+			(uuid "85a40220-b9f5-4c81-90d7-a9552d89132a")
+		)
+		(pin "57"
+			(uuid "83507ff0-657d-48c3-8cab-bfb3a115c361")
+		)
+		(pin "39"
+			(uuid "09171914-aa55-4063-b044-99c36011406b")
+		)
+		(pin "38"
+			(uuid "4127ff66-296e-4834-95ce-9099e4ba2237")
+		)
+		(pin "46"
+			(uuid "16e44dc0-9f62-48d8-9194-3cd18f87e6d1")
+		)
+		(pin "59"
+			(uuid "af82bb03-f1e7-4cd6-8265-94b498738bd3")
+		)
+		(pin "60"
+			(uuid "72ce3556-0035-4788-a990-ecb3fdb78e84")
+		)
+		(pin "30"
+			(uuid "f25bae27-6a1d-40d5-a0f2-f06de4b38c2f")
+		)
+		(pin "31"
+			(uuid "3401b97f-6831-488a-836d-4bc960de743d")
+		)
+		(pin "8"
+			(uuid "62ed3e86-e2c0-4cd5-95f1-f80290f52f61")
+		)
+		(pin "26"
+			(uuid "c8266bbb-ae3b-4e63-99b9-8b720ce0f4c6")
+		)
+		(pin "27"
+			(uuid "8afa9e76-c8ec-4b77-a4bc-f3a7929fadd3")
+		)
+		(instances
+			(project ""
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/aae47d4f-fc32-408a-9d63-5fc67cfcb68c"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 54.61 0)
 		(mirror x)
@@ -3460,304 +3759,6 @@
 			(project "FCU_v1"
 				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/aae47d4f-fc32-408a-9d63-5fc67cfcb68c"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:ESP32-C3-MINI-1-N4X")
-		(at 76.2 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d89178bc-0b72-4c1b-9da1-4e88872739d6")
-		(property "Reference" "IC3"
-			(at 95.504 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-C3-MINI-1-N4X"
-			(at 93.98 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ESP32C3MINI1N4X"
-			(at 105.41 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.pdf"
-			(at 105.41 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz Integrated, Trace Surface Mount , 3V ~ 3.6V , -40C ~ 85C (TA)"
-			(at 76.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.55"
-			(at 105.41 453.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 105.41 553.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 105.41 653.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Espressif Systems"
-			(at 105.41 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ESP32-C3-MINI-1-N4X"
-			(at 105.41 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "43c20bbc-6f91-47bf-aa1e-23e35dbb0034")
-		)
-		(pin "2"
-			(uuid "4d1c0831-6656-44eb-9c04-4398bfd2f5a3")
-		)
-		(pin "21"
-			(uuid "37702475-df17-48da-8177-52188e21a9cc")
-		)
-		(pin "16"
-			(uuid "2b4a3337-40c8-487e-a1ff-219580f2ec5b")
-		)
-		(pin "26"
-			(uuid "55f55f85-f6a8-4a09-b093-172a1c19e99b")
-		)
-		(pin "28"
-			(uuid "1a9d3432-68af-4614-a3de-33ffda331da0")
-		)
-		(pin "15"
-			(uuid "4124374f-2d20-4131-92f4-a59c2a8322a6")
-		)
-		(pin "7"
-			(uuid "cf1e3c0b-9df6-4299-9300-59eb8dc2511f")
-		)
-		(pin "10"
-			(uuid "8e48434c-15e7-4a91-b2a6-7e2b87e26efc")
-		)
-		(pin "1"
-			(uuid "c2194a49-dff1-47c1-bd4a-94843d4efa84")
-		)
-		(pin "3"
-			(uuid "72140818-b51f-434e-9d99-5fe4dd5a37c9")
-		)
-		(pin "5"
-			(uuid "193611b9-85d5-43fc-bce1-b1325ef01fd7")
-		)
-		(pin "6"
-			(uuid "332a7a59-f62f-4f86-9290-5f733137e6a1")
-		)
-		(pin "9"
-			(uuid "0c556cd0-59cd-4816-8fc7-4bc17260033b")
-		)
-		(pin "11"
-			(uuid "3bfc22fd-e5b5-4299-a742-a6cf5e4ad270")
-		)
-		(pin "8"
-			(uuid "c006e721-41da-4774-b3d3-ed7104f2247a")
-		)
-		(pin "4"
-			(uuid "d9079bb9-e03f-449d-a1e9-7eb3c4912709")
-		)
-		(pin "12"
-			(uuid "243677f4-3269-4547-9ad3-7f4da67118ef")
-		)
-		(pin "13"
-			(uuid "2627eab4-a0fe-41bd-84b6-11c254082e69")
-		)
-		(pin "18"
-			(uuid "e8163ae1-3141-4581-972f-d1115c6abe85")
-		)
-		(pin "17"
-			(uuid "7833a159-9e9f-4f66-9dba-28cd9f4057a8")
-		)
-		(pin "19"
-			(uuid "bc8c8333-c374-4355-adaf-0f8e526a69b5")
-		)
-		(pin "20"
-			(uuid "9c0fa5df-6b8b-47af-aab3-96c7875bf220")
-		)
-		(pin "22"
-			(uuid "dbe4cfa2-0c06-47b1-93bf-f070fd7f0dc9")
-		)
-		(pin "23"
-			(uuid "8f5f8e8d-904f-4401-91de-1fd248d2d601")
-		)
-		(pin "24"
-			(uuid "f397cc05-0aec-45df-ac26-cea202d82dc2")
-		)
-		(pin "25"
-			(uuid "dd94f7ae-535f-49fb-93c4-d366a38aed0d")
-		)
-		(pin "27"
-			(uuid "8189731e-a922-4d52-b58d-581f00ff399d")
-		)
-		(pin "53"
-			(uuid "d081727c-ca54-4bb2-ac3b-1d8a34b1a0a3")
-		)
-		(pin "50"
-			(uuid "8710d218-9899-4672-bcee-193248551a71")
-		)
-		(pin "31"
-			(uuid "88f5fc76-7350-4afa-9335-a4eefbdfaaf1")
-		)
-		(pin "40"
-			(uuid "34de367b-76fe-487f-8ae8-4182ac7bac13")
-		)
-		(pin "47"
-			(uuid "1938d4f3-b6ad-49ec-8b6a-8171daa86108")
-		)
-		(pin "37"
-			(uuid "4e4714e6-6de7-49e2-b234-0e1dc91c5c00")
-		)
-		(pin "34"
-			(uuid "563b0005-73f3-4afa-8ac1-3cabd1c23b6d")
-		)
-		(pin "42"
-			(uuid "10b2cc24-2dce-4937-af4d-dd0e2c9f34f1")
-		)
-		(pin "46"
-			(uuid "d1a80b4c-395e-40e3-9d79-719862993925")
-		)
-		(pin "32"
-			(uuid "3a4dad13-0a33-4336-8be3-2a32827c519c")
-		)
-		(pin "33"
-			(uuid "182008e3-3889-40ce-ad52-f943900af4db")
-		)
-		(pin "35"
-			(uuid "c49c7ba5-7863-4f02-9057-d3b093ac2ede")
-		)
-		(pin "45"
-			(uuid "5149c32a-d323-4b7c-8c0c-db0ec5277acf")
-		)
-		(pin "44"
-			(uuid "ae57f8aa-6158-47f4-b0aa-75cb616d3547")
-		)
-		(pin "49"
-			(uuid "915b1706-a099-4b0c-9ca7-014b7ba02bdc")
-		)
-		(pin "52"
-			(uuid "a1257132-be1f-4897-92cf-4465956d025c")
-		)
-		(pin "48"
-			(uuid "c0c8fa85-a3c7-441c-a5b2-011737779ffe")
-		)
-		(pin "39"
-			(uuid "297d8b68-0133-44c6-87f5-e7ff5b3c1319")
-		)
-		(pin "30"
-			(uuid "a2eada00-5fe2-44e4-971b-09d76cec83ee")
-		)
-		(pin "41"
-			(uuid "6deb6d28-a1ed-4331-970c-0c06e4674861")
-		)
-		(pin "29"
-			(uuid "f6ea6fdb-9854-4649-8cfe-0edb153f52f1")
-		)
-		(pin "38"
-			(uuid "b1395dd0-1204-4947-b69a-b5f7ffbf0380")
-		)
-		(pin "43"
-			(uuid "2b6db7b4-6c39-4c90-abd1-ce81fadaa593")
-		)
-		(pin "36"
-			(uuid "8804ccee-c4fa-41cb-aeb6-55e111c1126f")
-		)
-		(pin "51"
-			(uuid "ea77ee69-1392-4880-a6e9-dd8bdd464111")
-		)
-		(pin "54"
-			(uuid "6f471c28-94ce-49a5-9952-7b4867e540d8")
-		)
-		(pin "56"
-			(uuid "998a12fa-c1d4-40a4-95e5-83ca789f9c61")
-		)
-		(pin "57"
-			(uuid "f87c4399-3397-4c7d-8636-d53fb5e88f8e")
-		)
-		(pin "55"
-			(uuid "624e8516-9921-4212-a008-e8a45b85a814")
-		)
-		(pin "61"
-			(uuid "cda00215-a479-4456-8ee5-c3433dbac03f")
-		)
-		(pin "58"
-			(uuid "105ed11d-fa42-46e5-bf2b-9d9da6be836f")
-		)
-		(pin "59"
-			(uuid "c759ecfe-4209-476d-be2f-ce1e278463d1")
-		)
-		(pin "60"
-			(uuid "2208dce6-b15a-4d7b-8d34-45258ae64a81")
-		)
-		(instances
-			(project "FCU_v1"
-				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/aae47d4f-fc32-408a-9d63-5fc67cfcb68c"
-					(reference "IC3")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-27135899113350589
+27137671197621197
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98461,6 +98461,13 @@ Undefined or Miscellaneous
 0
 10
 10
+SamacSys_Parts
+ESP32C3MINI1N4X
+13.2 × 16.6 × 2.4mm_2025
+Integrated Circuit
+0
+61
+61
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
