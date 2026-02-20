@@ -1,4 +1,4 @@
-27127041471895836
+27135899113350589
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98447,6 +98447,41 @@ pin header 4-pin CPU fan
 0
 40
 40
+SamacSys_Parts
+BGA9C40P3X3_128X128X54
+9-WLCSP (1.28x1.28)
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+BMP581
+BMP581-7
+Undefined or Miscellaneous
+0
+10
+10
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOT95P280X145-5N
+DBV0005A
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+WE-TPC_4818_482892
+WE-TPC_4818/482892
+Inductor
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

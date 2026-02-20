@@ -470,8 +470,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "SamacSys_Parts"
+    ],
+    "pinned_symbol_libs": [
+      "SamacSys_Parts"
+    ]
   },
   "meta": {
     "filename": "FCU_v1.kicad_pro",
@@ -642,8 +646,16 @@
       "MCU"
     ],
     [
+      "aae47d4f-fc32-408a-9d63-5fc67cfcb68c",
+      "ESP"
+    ],
+    [
+      "8236d03b-04a0-45c2-8f70-fbac7b65dad7",
+      "IMU"
+    ],
+    [
       "59ff9d4e-fbb6-4b08-8a4a-edebb7815a6e",
-      "PERIPHERALS"
+      "OLD_UNUSED"
     ]
   ],
   "text_variables": {}
