@@ -1906,6 +1906,38 @@
 		)
 		(uuid 977ba241-dfca-4961-856f-d1750418a75f)
 	)
+	(rectangle
+		(start 189.865 139.7)
+		(end 239.395 156.845)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d79dc396-8e13-46fb-a058-143555679a03)
+	)
+	(text "PB5\nPB6"
+		(exclude_from_sim no)
+		(at 194.31 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c7de67c-2fee-424a-bd3a-8d4cb998f9f9")
+	)
+	(text "This is for future version with GPS"
+		(exclude_from_sim no)
+		(at 213.868 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5319036b-a187-4174-bd97-fa65e5a17475")
+	)
 	(text "Pressure sensor\nSTM LPS22HHTR"
 		(exclude_from_sim no)
 		(at 127.254 79.248 0)
@@ -2371,6 +2403,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 147.32) (xy 212.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bdd4909-114e-4985-aca6-e720947422a4")
+	)
+	(wire
+		(pts
 			(xy 127 90.17) (xy 133.35 90.17)
 		)
 		(stroke
@@ -2421,6 +2463,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 149.86) (xy 219.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f96c84f-e526-43b3-af88-f14e381899b4")
+	)
+	(wire
+		(pts
 			(xy 246.38 120.65) (xy 245.11 120.65)
 		)
 		(stroke
@@ -2458,6 +2510,16 @@
 			(type default)
 		)
 		(uuid "55242644-d8e6-4efd-bc69-5c7b3a3a6cba")
+	)
+	(wire
+		(pts
+			(xy 222.25 147.32) (xy 219.71 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554b5261-c525-4119-b7f2-e01c85ce2435")
 	)
 	(wire
 		(pts
@@ -2941,6 +3003,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 149.86) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc96adea-0db8-43e2-ad44-d7ebdb0833e5")
+	)
+	(wire
+		(pts
 			(xy 195.58 102.87) (xy 196.85 102.87)
 		)
 		(stroke
@@ -3180,6 +3252,48 @@
 		)
 		(uuid "3807b40f-bc92-4f21-af6d-8ed11674ddc4")
 	)
+	(label "GNSS_Rst"
+		(at 199.39 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d1d94a3-6263-4f8f-9a50-7be330d3f74c")
+	)
+	(label "GNSS_Tx"
+		(at 199.39 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbdff94c-d211-4656-96fa-3fa201deb91a")
+	)
+	(global_label "GNSS_RST"
+		(shape input)
+		(at 222.25 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19674eb0-4b5e-4a2c-a79b-69d5335437d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.6694 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 36.83 113.03 180)
@@ -3264,6 +3378,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GNSS_TX"
+		(shape input)
+		(at 222.25 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5be74dc8-a67b-434c-9aaa-23ede5f1c839")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.3994 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4903,6 +5039,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 215.9 149.86 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a32b9306-fa50-42d3-af4e-2b6b2e9dbaea")
+		(property "Reference" "R14"
+			(at 220.472 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33R"
+			(at 215.646 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3906c294-b578-4bb0-9ce1-10671bba0833")
+		)
+		(pin "2"
+			(uuid "5f108433-f15b-461f-8d58-2437716d1f49")
+		)
+		(instances
+			(project "FCU_v1"
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/59ff9d4e-fbb6-4b08-8a4a-edebb7815a6e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 74.93 88.9 0)
 		(unit 1)
@@ -4962,6 +5168,76 @@
 			(project "FCU_v1"
 				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/59ff9d4e-fbb6-4b08-8a4a-edebb7815a6e"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 215.9 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a8f094b5-c6bd-4974-8fae-eebbac575952")
+		(property "Reference" "R13"
+			(at 219.71 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33R"
+			(at 214.884 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6378eec-87a7-4101-a65d-c92d433bb6e3")
+		)
+		(pin "2"
+			(uuid "7019985c-f1a5-4641-acfa-1192f55515b8")
+		)
+		(instances
+			(project "FCU_v1"
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/59ff9d4e-fbb6-4b08-8a4a-edebb7815a6e"
+					(reference "R13")
 					(unit 1)
 				)
 			)
