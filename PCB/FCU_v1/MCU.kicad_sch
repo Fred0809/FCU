@@ -6636,7 +6636,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 29.21 137.16 0)
+		(at 29.21 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6646,7 +6646,7 @@
 		)
 		(uuid "2c9400f3-9b3e-42ca-98e1-012731c3c1e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.4242 137.16 0)
+			(at 38.4242 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +6680,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 29.21 134.62 0)
+		(at 29.21 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6690,7 +6690,7 @@
 		)
 		(uuid "33eb127e-a0aa-4f54-a0e6-f558155086a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0614 134.62 0)
+			(at 38.0614 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,7 +7164,7 @@
 	)
 	(global_label "NRST"
 		(shape output)
-		(at 29.21 132.08 0)
+		(at 29.21 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7174,7 +7174,7 @@
 		)
 		(uuid "9dc91d1b-fa5b-423b-974b-d696a76a44ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.9728 132.08 0)
+			(at 36.9728 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7626,7 @@
 	)
 	(global_label "SWO"
 		(shape input)
-		(at 29.21 139.7 0)
+		(at 29.21 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7636,7 +7636,7 @@
 		)
 		(uuid "f4c9cee4-057c-4d2c-a014-babdea55ef39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.1866 139.7 0)
+			(at 36.1866 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 43.18 76.962 90)
 			(effects
 				(font
