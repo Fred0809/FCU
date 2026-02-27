@@ -3503,42 +3503,34 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:BMP581")
-		(at 67.31 146.05 0)
+		(lib_id "SamacSys_Parts:BMM350")
+		(at 181.61 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2a28ffd3-eaa1-467b-8f2e-bfd61f5bebe7")
-		(property "Reference" "U7"
-			(at 87.376 134.62 0)
+		(uuid "1065c8db-46fd-4fc1-93e4-cb38587ab2f3")
+		(property "Reference" "IC1"
+			(at 201.93 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "BMP581"
-			(at 88.392 152.654 0)
+		(property "Value" "BMM350"
+			(at 200.914 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "BMP581"
-			(at 93.98 230.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
-			(at 93.98 330.81 0)
+		(property "Footprint" "BGA9C40P3X3_128X128X54"
+			(at 210.82 163.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,17 +3539,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
-			(at 67.31 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 93.98 530.81 0)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf"
+			(at 210.82 263.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,8 +3549,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "262-BMP581"
-			(at 93.98 630.81 0)
+		(property "Description" "Board Mount Hall Effect / Magnetic Sensors High-Performance Magnometer"
+			(at 181.61 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.54"
+			(at 210.82 463.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,8 +3568,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"
-			(at 93.98 730.81 0)
+		(property "Mouser Part Number" "262-BMM350"
+			(at 210.82 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMM350?qs=amGC7iS6iy9v98dnmxozLQ%3D%3D"
+			(at 210.82 663.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3589,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "BOSCH"
-			(at 93.98 830.81 0)
+			(at 210.82 763.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,8 +3598,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BMP581"
-			(at 93.98 930.81 0)
+		(property "Manufacturer_Part_Number" "BMM350"
+			(at 210.82 863.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,40 +3608,37 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "c22a1b02-eb09-4994-9244-f8bbe69fa591")
+		(pin "C1"
+			(uuid "f6dce9b5-4c26-4a4a-8cc1-69e59f62c510")
 		)
-		(pin "4"
-			(uuid "56e95358-bffb-49ad-b0ee-f3998261ede8")
+		(pin "A3"
+			(uuid "30789c0e-6b6b-4602-95e4-c5b85ca32381")
 		)
-		(pin "1"
-			(uuid "f422269e-9c57-49d9-80b1-e3542f8db19c")
+		(pin "B2"
+			(uuid "4289a4fb-475e-4f91-837a-a6c49c2127d9")
 		)
-		(pin "9"
-			(uuid "e3cb974e-fc57-47a5-8aa7-f3518fcefd56")
+		(pin "B1"
+			(uuid "4a6e62a4-ce3c-4506-9e38-a51494dc20a5")
 		)
-		(pin "2"
-			(uuid "d6dda357-87bc-4824-aec0-c7cc6646a739")
+		(pin "A1"
+			(uuid "e96bc216-52e4-4435-8167-1618343802f0")
 		)
-		(pin "3"
-			(uuid "419074f4-ae34-4d1b-987c-ec7383b06d85")
+		(pin "A2"
+			(uuid "77c332cb-091e-4832-8d80-3f4992fb47f8")
 		)
-		(pin "5"
-			(uuid "6dc6fe15-b88c-4d13-aafc-3ddb37b7f090")
+		(pin "B3"
+			(uuid "2215bae2-8fea-4e33-8ac2-2cfca12f5701")
 		)
-		(pin "10"
-			(uuid "a960ba9c-f843-4d57-b383-8fea04eed4c1")
+		(pin "C2"
+			(uuid "1ec956d7-3ed4-4a38-a7dd-f2f929da2cf2")
 		)
-		(pin "8"
-			(uuid "5b0036de-0f27-4b86-a593-dbc4f57c1956")
-		)
-		(pin "7"
-			(uuid "4282c5b0-09f7-4f69-9386-b869dfb76872")
+		(pin "C3"
+			(uuid "7aad6e35-1911-4e29-a9b2-8aed9f1237ab")
 		)
 		(instances
 			(project ""
 				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/8236d03b-04a0-45c2-8f70-fbac7b65dad7"
-					(reference "U7")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -4128,6 +4127,277 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:BMP581")
+		(at 67.31 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50c5ef6c-5b6c-461a-bda6-aa355fa78adf")
+		(property "Reference" "U8"
+			(at 77.216 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMP581"
+			(at 88.646 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMP581"
+			(at 93.98 230.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+			(at 93.98 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA"
+			(at 67.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 93.98 530.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "262-BMP581"
+			(at 93.98 630.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D"
+			(at 93.98 730.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "BOSCH"
+			(at 93.98 830.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BMP581"
+			(at 93.98 930.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "89f6cbde-7bdd-4294-a376-b1dbbbe3efee")
+		)
+		(pin "10"
+			(uuid "3993bd5b-bc27-4b39-a727-50cfb37200ca")
+		)
+		(pin "5"
+			(uuid "8981fa23-d1a4-4e74-a9fc-c27efa1abfc0")
+		)
+		(pin "3"
+			(uuid "df9475f4-f526-4952-9212-d195c11afeb9")
+		)
+		(pin "9"
+			(uuid "3460d25e-f1c3-4b0d-943e-b2cb07d2062a")
+		)
+		(pin "8"
+			(uuid "67041aec-c1a9-47a0-9474-a95746ac3b19")
+		)
+		(pin "6"
+			(uuid "0116295b-46ce-4573-8524-101819ead329")
+		)
+		(pin "4"
+			(uuid "c151622a-40fd-4086-b221-9d85a37d1f3c")
+		)
+		(pin "2"
+			(uuid "a2693f17-a5ed-49d8-9e07-fa499be16f62")
+		)
+		(pin "1"
+			(uuid "1cbb3e8f-ca70-4279-9e1e-b2fb6631cb90")
+		)
+		(instances
+			(project ""
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/8236d03b-04a0-45c2-8f70-fbac7b65dad7"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TPS7A2018PDBVR")
+		(at 161.29 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53272ec3-69d4-4eb6-9479-73fbf3b9983d")
+		(property "Reference" "IC4"
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A2018PDBVR"
+			(at 173.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 182.88 146.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e65d9d311cedf91014769949f3101225.pdf"
+			(at 182.88 246.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Voltage Regulators 300-mA, ultra-low-noise, low-IQ, low-dropout (LDO) linear regulator with high PSRR"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 182.88 446.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS7A2018PDBVR"
+			(at 182.88 546.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A2018PDBVR?qs=hd1VzrDQEGheW9qdrIVGew%3D%3D"
+			(at 182.88 646.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 182.88 746.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS7A2018PDBVR"
+			(at 182.88 846.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e22e96d0-d691-4c2e-babc-1eaf8ad41ba9")
+		)
+		(pin "3"
+			(uuid "8d0b1e2a-cacb-4a03-b2ba-8398d6b45d76")
+		)
+		(pin "5"
+			(uuid "1112928b-069a-4904-8c4f-9fe65e99e9d4")
+		)
+		(pin "2"
+			(uuid "d2852a1d-0e8c-48d2-a986-371c8f009c6f")
+		)
+		(pin "4"
+			(uuid "79e2f372-36e6-4c88-bfd9-5ebdc944448c")
+		)
+		(instances
+			(project ""
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/8236d03b-04a0-45c2-8f70-fbac7b65dad7"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 76.2 48.26 0)
 		(unit 1)
@@ -4323,149 +4593,6 @@
 			(project "FCU_v1"
 				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/8236d03b-04a0-45c2-8f70-fbac7b65dad7"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:BMM350")
-		(at 181.61 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f45002a-96da-4eaa-a577-7602c7552787")
-		(property "Reference" "IC2"
-			(at 201.5333 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BMM350"
-			(at 201.5333 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BGA9C40P3X3_128X128X54"
-			(at 210.82 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf"
-			(at 210.82 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Board Mount Hall Effect / Magnetic Sensors High-Performance Magnometer"
-			(at 181.61 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.54"
-			(at 210.82 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "262-BMM350"
-			(at 210.82 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMM350?qs=amGC7iS6iy9v98dnmxozLQ%3D%3D"
-			(at 210.82 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "BOSCH"
-			(at 210.82 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BMM350"
-			(at 210.82 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "9b057295-16f1-46ac-8503-97ae9fda7e5d")
-		)
-		(pin "A3"
-			(uuid "e1f93b98-1912-4857-bf46-43017532b88c")
-		)
-		(pin "C1"
-			(uuid "49ebea50-6bc7-4e35-83ab-7e2885ddb9b2")
-		)
-		(pin "B2"
-			(uuid "9a7dff69-2758-4b18-92da-ee16eef29eac")
-		)
-		(pin "B1"
-			(uuid "431fa45b-f983-4b78-853d-2aaf80833837")
-		)
-		(pin "B3"
-			(uuid "e7dd5c67-592f-48b7-957f-d82e05ace32a")
-		)
-		(pin "A2"
-			(uuid "89d86dce-1212-42f4-8255-6f72356f229a")
-		)
-		(pin "C3"
-			(uuid "0494dc61-856b-42b5-85f0-599d8a3c0427")
-		)
-		(pin "C2"
-			(uuid "bf8e9bf2-7f22-4792-9d41-9e432ca60925")
-		)
-		(instances
-			(project ""
-				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/8236d03b-04a0-45c2-8f70-fbac7b65dad7"
-					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -5405,135 +5532,6 @@
 			(project "FCU_v1"
 				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/8236d03b-04a0-45c2-8f70-fbac7b65dad7"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TPS7A2018PDBVR")
-		(at 161.29 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab42b58e-d88a-4754-842a-16f13f422d8e")
-		(property "Reference" "IC3"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS7A2018PDBVR"
-			(at 173.99 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 182.88 146.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e65d9d311cedf91014769949f3101225.pdf"
-			(at 182.88 246.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO Voltage Regulators 300-mA, ultra-low-noise, low-IQ, low-dropout (LDO) linear regulator with high PSRR"
-			(at 161.29 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 182.88 446.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS7A2018PDBVR"
-			(at 182.88 546.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A2018PDBVR?qs=hd1VzrDQEGheW9qdrIVGew%3D%3D"
-			(at 182.88 646.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 182.88 746.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS7A2018PDBVR"
-			(at 182.88 846.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7795f49-74ff-46ee-a314-47e245531936")
-		)
-		(pin "5"
-			(uuid "66f35afe-40f0-434e-a8d9-cba8dceb93ff")
-		)
-		(pin "3"
-			(uuid "d60c0711-85d3-455e-81c8-af18c627bd65")
-		)
-		(pin "1"
-			(uuid "0c83fe40-beec-4142-bb42-085ef4c0f79a")
-		)
-		(pin "4"
-			(uuid "a86d77bb-83fe-4e27-afd9-3f8021d62bee")
-		)
-		(instances
-			(project ""
-				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/8236d03b-04a0-45c2-8f70-fbac7b65dad7"
-					(reference "IC3")
 					(unit 1)
 				)
 			)

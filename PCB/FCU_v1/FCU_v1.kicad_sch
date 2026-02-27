@@ -5,6 +5,201 @@
 	(uuid "ace60bf5-8c2a-49e8-98f3-824f03a0dfeb")
 	(paper "A4")
 	(lib_symbols
+		(symbol "744042001_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 3.302 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "744042001"
+				(at 3.302 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:WE-TPC_4818_482892"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/744042001.pdf"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WE-TPC SMT Shielded Tiny Power Inductor Size 4818; L = 1 H ; IR = 2.7 A; Isat = 2.6 A; RDC = 30 m"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "9.5"
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-744042001"
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744042001?qs=PGXP4M47uW57SeRFKSWu8g%3D%3D"
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "744042001"
+				(at 16.51 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "744042001_3_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 5.715 0.6103)
+					(end 6.35 0)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 0)
+					(mid 6.985 0.6103)
+					(end 7.62 0)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 8.255 0.6103)
+					(end 8.89 0)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 0)
+					(mid 9.525 0.6103)
+					(end 10.16 0)
+					(stroke
+						(width 0.1778)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2750,201 +2945,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:744042001"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 3.556 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "744042001"
-				(at 3.556 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "WE-TPC_4818/482892"
-				(at 16.51 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/744042001.pdf"
-				(at 16.51 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "WE-TPC SMT Shielded Tiny Power Inductor Size 4818; L = 1 H ; IR = 2.7 A; Isat = 2.6 A; RDC = 30 m"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "9.5"
-				(at 16.51 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-744042001"
-				(at 16.51 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744042001?qs=PGXP4M47uW57SeRFKSWu8g%3D%3D"
-				(at 16.51 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 16.51 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "744042001"
-				(at 16.51 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "744042001_1_1"
-				(arc
-					(start 5.08 0)
-					(mid 5.715 0.6103)
-					(end 6.35 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.35 0)
-					(mid 6.985 0.6103)
-					(end 7.62 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 0)
-					(mid 8.255 0.6103)
-					(end 8.89 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 8.89 0)
-					(mid 9.525 0.6103)
-					(end 10.16 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3501,7 +3501,7 @@
 	)
 	(text "Wurth 744042001"
 		(exclude_from_sim no)
-		(at 213.614 26.416 0)
+		(at 213.614 26.924 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -3571,7 +3571,7 @@
 		(uuid "a7eb476b-2df6-463f-960b-873407d9c55c")
 	)
 	(junction
-		(at 215.9 41.91)
+		(at 218.44 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a81386d8-8ae3-48c5-a7ba-464bd9e8de46")
@@ -3613,12 +3613,6 @@
 		(uuid "d2de14ea-36d7-4825-bbf3-c5d03408a738")
 	)
 	(junction
-		(at 215.9 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e29693a5-6436-4f94-9449-5b01ab668031")
-	)
-	(junction
 		(at 80.01 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3635,6 +3629,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea5b27d6-cfac-4f00-ba78-a8d98e61d23c")
+	)
+	(junction
+		(at 218.44 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f57cf3fe-ed5f-480e-96db-960c1a7ea6e4")
 	)
 	(junction
 		(at 176.53 31.75)
@@ -3668,6 +3668,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 31.75) (xy 205.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019e6155-3641-4cbd-9de3-1a6825b92a13")
+	)
+	(wire
+		(pts
 			(xy 128.27 26.67) (xy 128.27 27.94)
 		)
 		(stroke
@@ -3678,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 77.47 106.68)
+			(xy 78.74 106.68) (xy 77.47 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3708,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 34.29) (xy 209.55 41.91)
+			(xy 210.82 34.29) (xy 210.82 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3728,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 41.91) (xy 215.9 43.18)
+			(xy 218.44 41.91) (xy 218.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3828,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 106.68) (xy 50.8 106.68)
+			(xy 52.07 106.68) (xy 50.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3838,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 123.19) (xy 24.13 123.19)
+			(xy 25.4 123.19) (xy 24.13 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3948,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 120.65) (xy 24.13 120.65)
+			(xy 25.4 120.65) (xy 24.13 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4018,7 +4028,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 40.64) (xy 215.9 41.91)
+			(xy 218.44 40.64) (xy 218.44 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4188,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 41.91) (xy 209.55 41.91)
+			(xy 218.44 41.91) (xy 210.82 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4218,33 +4228,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 31.75) (xy 205.74 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62a22475-98d4-49ad-bdbe-155cb01dd4aa")
-	)
-	(wire
-		(pts
-			(xy 53.34 123.19) (xy 50.8 123.19)
+			(xy 52.07 123.19) (xy 50.8 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6529bc04-ac5f-4d85-85bf-b77cda01cddd")
-	)
-	(wire
-		(pts
-			(xy 87.63 43.18) (xy 106.68 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65910ae5-59d6-419e-bc48-717b9b0de20d")
 	)
 	(wire
 		(pts
@@ -4308,7 +4298,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 104.14) (xy 77.47 104.14)
+			(xy 78.74 104.14) (xy 77.47 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4368,7 +4358,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 104.14) (xy 50.8 104.14)
+			(xy 52.07 104.14) (xy 50.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4388,7 +4378,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 33.02) (xy 215.9 31.75)
+			(xy 218.44 33.02) (xy 218.44 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4418,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 31.75) (xy 215.9 31.75)
+			(xy 217.17 31.75) (xy 218.44 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4488,7 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 104.14) (xy 24.13 104.14)
+			(xy 25.4 104.14) (xy 24.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4508,7 +4498,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 120.65) (xy 50.8 120.65)
+			(xy 52.07 120.65) (xy 50.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4598,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 50.8) (xy 215.9 52.07)
+			(xy 218.44 50.8) (xy 218.44 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4628,7 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 106.68) (xy 24.13 106.68)
+			(xy 25.4 106.68) (xy 24.13 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4645,16 +4635,6 @@
 			(type default)
 		)
 		(uuid "b24b216c-504e-46f3-86bf-22cf4e6a6907")
-	)
-	(wire
-		(pts
-			(xy 215.9 31.75) (xy 224.79 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e7f34d-1958-4e44-a77d-65d79e2bb4fd")
 	)
 	(wire
 		(pts
@@ -4688,7 +4668,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 123.19) (xy 77.47 123.19)
+			(xy 78.74 123.19) (xy 77.47 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4888,7 +4868,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 34.29) (xy 205.74 34.29)
+			(xy 210.82 34.29) (xy 205.74 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4978,6 +4958,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 31.75) (xy 224.79 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef76f09a-235f-4077-88ce-e426b5b4c8c3")
+	)
+	(wire
+		(pts
 			(xy 237.49 29.21) (xy 237.49 31.75)
 		)
 		(stroke
@@ -5028,7 +5018,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 120.65) (xy 77.47 120.65)
+			(xy 78.74 120.65) (xy 77.47 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5045,6 +5035,16 @@
 			(type default)
 		)
 		(uuid "fb8f2470-6c23-4d4e-b62d-b491828e3d21")
+	)
+	(wire
+		(pts
+			(xy 87.63 43.18) (xy 106.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1106c1-d55a-46c9-a965-4b3570f85248")
 	)
 	(wire
 		(pts
@@ -5332,6 +5332,17 @@
 			"YDAYjCqBORUMBoPBYDCqBOZUMBgMBoPBqBL+B9WWwXNKYQIVAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "SW_TPS"
+		(at 205.74 31.75 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.0794)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c36d0de-5ff6-48e5-b507-8eb141753038")
+	)
 	(label "D-"
 		(at 80.01 36.83 0)
 		(effects
@@ -5363,6 +5374,28 @@
 		)
 		(uuid "ed1930fe-ec59-4eef-9ee0-acf7a3aeae6a")
 	)
+	(global_label "CAN-"
+		(shape bidirectional)
+		(at 78.74 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "054ca793-f4f4-4079-897f-8fc42cc9c112")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.098 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 93.98 36.83 0)
@@ -5385,9 +5418,9 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 26.67 106.68 0)
+	(global_label "CAN+"
+		(shape bidirectional)
+		(at 52.07 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5395,9 +5428,9 @@
 			)
 			(justify left)
 		)
-		(uuid "14937c9d-328c-4626-a211-54d2d472de1d")
+		(uuid "1866e51e-b2a5-4641-a13e-30e2a212e704")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.6424 106.68 0)
+			(at 61.428 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,9 +5440,9 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 53.34 123.19 0)
+	(global_label "CAN+"
+		(shape bidirectional)
+		(at 25.4 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5417,31 +5450,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2f12ad6b-0e56-4af7-a7a3-27f7f9fe717f")
+		(uuid "24486d79-1632-482d-96d4-87235cbfac9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.3124 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 80.01 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b8ff4e3-777a-49b5-bafd-fcf9aafb0f79")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.68 120.65 0)
+			(at 34.758 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,9 +5484,9 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 80.01 123.19 0)
+	(global_label "CAN-"
+		(shape bidirectional)
+		(at 52.07 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5483,9 +5494,53 @@
 			)
 			(justify left)
 		)
-		(uuid "6e16fcfd-9aa3-4f59-aec5-7f52ac15507d")
+		(uuid "4a0df319-2d51-4eb6-b898-dac454319891")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9824 123.19 0)
+			(at 61.428 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN-"
+		(shape bidirectional)
+		(at 25.4 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69dd15fa-172a-4ee1-b1fa-01c1e3e0d907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.758 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN-"
+		(shape bidirectional)
+		(at 78.74 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74a01291-b188-47ea-a149-bd9199c25fc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.098 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,9 +5572,9 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 26.67 123.19 0)
+	(global_label "CAN+"
+		(shape bidirectional)
+		(at 52.07 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5527,9 +5582,9 @@
 			)
 			(justify left)
 		)
-		(uuid "87c8f0bb-0028-4acb-b6e0-9f3c2ffdcc81")
+		(uuid "8201e236-3907-4b25-b0de-46eebfd1a0a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.6424 123.19 0)
+			(at 61.428 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,9 +5616,9 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 26.67 120.65 0)
+	(global_label "CAN+"
+		(shape bidirectional)
+		(at 78.74 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5571,9 +5626,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a775dfa8-fd9b-48e9-b2ee-1a1f9c5ac6a3")
+		(uuid "ab16b48b-1aa5-4618-b3a3-107989e34a9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.34 120.65 0)
+			(at 88.098 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,9 +5638,9 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 26.67 104.14 0)
+	(global_label "CAN-"
+		(shape bidirectional)
+		(at 52.07 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5593,9 +5648,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ac1a7ca1-d60c-452a-956b-53c3d3555791")
+		(uuid "b260661a-b7b4-4bec-b4ba-d1d9334a6da7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.34 104.14 0)
+			(at 61.428 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,9 +5660,9 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 53.34 106.68 0)
+	(global_label "CAN-"
+		(shape bidirectional)
+		(at 25.4 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5615,9 +5670,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b33e8efa-aedd-481d-9055-28e52a813930")
+		(uuid "ba05ddd5-0ec5-42c3-b33e-a2cf4f68b73b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.3124 106.68 0)
+			(at 34.758 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,9 +5682,9 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 80.01 106.68 0)
+	(global_label "CAN+"
+		(shape bidirectional)
+		(at 25.4 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5637,9 +5692,31 @@
 			)
 			(justify left)
 		)
-		(uuid "b9a897b9-084c-48de-be05-1548149fe102")
+		(uuid "c0d2a19c-0743-44ca-a963-549818d2d36f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9824 106.68 0)
+			(at 34.758 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN+"
+		(shape bidirectional)
+		(at 78.74 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3b131be-9ea0-41a8-9434-bc174779f415")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.098 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,72 +5739,6 @@
 		(uuid "cf7025e6-d805-4d6b-a9e4-adcbc46503b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.0895 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 80.01 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e764f0e9-c245-476d-a1b3-a16878ef905d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.68 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 53.34 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f10677f0-91a7-4a94-bfa1-0209a23abbb9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 53.34 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8d397bd-6b13-4c4f-a0ab-3e9e4775c343")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 215.9 52.07 0)
+		(at 218.44 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6019,7 +6030,7 @@
 		(fields_autoplaced yes)
 		(uuid "052e1a15-8157-4317-aad0-a2467a6b624f")
 		(property "Reference" "#PWR03"
-			(at 215.9 58.42 0)
+			(at 218.44 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,7 +6039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 57.15 0)
+			(at 218.44 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 52.07 0)
+			(at 218.44 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 52.07 0)
+			(at 218.44 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 215.9 52.07 0)
+			(at 218.44 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,6 +7254,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 87.63 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44a67eb9-ead3-45fa-aedb-8aee00686164")
+		(property "Reference" "U7"
+			(at 90.932 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 102.108 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 86.36 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 87.63 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2400fe5a-a841-496b-8556-6cba7791b42e")
+		)
+		(pin "1"
+			(uuid "4a513e78-30a7-4ab3-9efa-a61048d42236")
+		)
+		(pin "2"
+			(uuid "8b0b0028-0185-41f5-aa72-662731084b65")
+		)
+		(pin "4"
+			(uuid "e6e90b9f-f396-4726-82d0-253135439841")
+		)
+		(pin "3"
+			(uuid "03582e1d-0b2f-487d-8433-2a1874b95fc0")
+		)
+		(pin "6"
+			(uuid "9863097b-ebfc-4d21-9e52-cb81ae5a5610")
+		)
+		(instances
+			(project ""
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 91.44 102.87 0)
 		(unit 1)
@@ -7779,91 +7875,6 @@
 			(project "FCU_v1"
 				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 87.63 34.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63910445-54c2-4b98-8355-21fc86b4e770")
-		(property "Reference" "U8"
-			(at 91.186 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBLC6-2SC6"
-			(at 102.616 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 86.36 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 86.36 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 87.63 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8b96dc9c-063e-4277-ad49-9fda7e52fd58")
-		)
-		(pin "3"
-			(uuid "058d30b5-4649-498a-b06a-7a9f01d481fa")
-		)
-		(pin "2"
-			(uuid "2b9f9d2b-5315-4eb9-b095-fa8757637af2")
-		)
-		(pin "1"
-			(uuid "cf2199d0-9c7c-447f-99ca-41db62986e74")
-		)
-		(pin "6"
-			(uuid "37083269-3b21-47d8-8be6-be8ba3cfe4d9")
-		)
-		(pin "5"
-			(uuid "893412c6-4a33-497f-a1f1-f5b0d09e7898")
-		)
-		(instances
-			(project "FCU_v1"
-				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8894,7 +8905,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 46.99 0)
+		(at 218.44 46.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8902,7 +8914,7 @@
 		(dnp no)
 		(uuid "a2fc7fa1-2358-4650-8e65-3e5b9461e323")
 		(property "Reference" "R37"
-			(at 217.424 44.958 0)
+			(at 216.916 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +8932,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 214.122 46.99 90)
+			(at 220.218 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,7 +8941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +8950,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,6 +9522,127 @@
 		)
 	)
 	(symbol
+		(lib_name "744042001_3")
+		(lib_id "SamacSys_Parts:744042001")
+		(at 205.74 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2160525-3a6e-4ec1-95cc-34e0d15cefb3")
+		(property "Reference" "L4"
+			(at 213.36 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "744042001"
+			(at 213.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:WE-TPC_4818_482892"
+			(at 222.25 127.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/744042001.pdf"
+			(at 222.25 227.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-TPC SMT Shielded Tiny Power Inductor Size 4818; L = 1 H ; IR = 2.7 A; Isat = 2.6 A; RDC = 30 m"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.5"
+			(at 222.25 427.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-744042001"
+			(at 222.25 527.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744042001?qs=PGXP4M47uW57SeRFKSWu8g%3D%3D"
+			(at 222.25 627.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 222.25 727.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "744042001"
+			(at 222.25 827.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94aac038-df57-4d4b-a832-390bfb5a5e07")
+		)
+		(pin "1"
+			(uuid "1857dc4e-a4f0-45f2-b9fa-1d649169ba9a")
+		)
+		(instances
+			(project ""
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 91.44 114.3 0)
 		(unit 1)
@@ -9848,128 +9981,9 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:744042001")
-		(at 203.2 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dffa2776-7325-4a06-b1c5-0e22eede55eb")
-		(property "Reference" "L1"
-			(at 211.328 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "744042001"
-			(at 213.36 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:WE-TPC_4818_482892"
-			(at 219.71 127.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/744042001.pdf"
-			(at 219.71 227.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "WE-TPC SMT Shielded Tiny Power Inductor Size 4818; L = 1 H ; IR = 2.7 A; Isat = 2.6 A; RDC = 30 m"
-			(at 203.2 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.5"
-			(at 219.71 427.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-744042001"
-			(at 219.71 527.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744042001?qs=PGXP4M47uW57SeRFKSWu8g%3D%3D"
-			(at 219.71 627.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 219.71 727.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "744042001"
-			(at 219.71 827.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae50d517-07a1-46d6-ad38-bc057a19c4a1")
-		)
-		(pin "1"
-			(uuid "0098178b-22d4-4ef0-8846-7b1a0a8f644e")
-		)
-		(instances
-			(project ""
-				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 215.9 36.83 0)
+		(at 218.44 36.83 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9977,7 +9991,7 @@
 		(dnp no)
 		(uuid "e960b410-da6a-4eb0-ac18-91ed455d2197")
 		(property "Reference" "R2"
-			(at 217.424 34.798 0)
+			(at 216.916 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 214.122 36.83 90)
+			(at 220.218 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +10018,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 36.83 0)
+			(at 218.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10027,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 36.83 0)
+			(at 218.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
