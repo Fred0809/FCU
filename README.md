@@ -8,3 +8,6 @@ Six JST connectors on sides are used to connect to ESCs on each motor. It will u
 <p align="center">
   <img src="FCU_board.png" width="500">
 </p>
+
+
+60.8 x 57.6 mm
