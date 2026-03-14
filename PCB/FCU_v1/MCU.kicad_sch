@@ -3084,6 +3084,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:TCAN3414DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 18.542 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TCAN3414DR"
+				(at 18.542 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3414.pdf?ts=1713723144569&ref_url=https%253A%252F%252Fwww.mouser.ch%252F"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.3-V CAN FD transceiver with shut-down and standby mode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.75"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TCAN3414DR"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3414DR?qs=mELouGlnn3egF2AojRJddw%3D%3D"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TCAN3414DR"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TCAN3414DR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 0)
+					(length 2.54)
+					(name "STB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 0)
+					(length 2.54)
+					(name "SHDNVIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 5.08 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3592,6 +3852,17 @@
 		)
 		(uuid f3fdb331-c5a2-4d44-9564-61135c4fde39)
 	)
+	(text "Values from STM's\nG4 Nucleo Board\nSchematic"
+		(exclude_from_sim no)
+		(at 53.594 102.362 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.0953)
+			)
+		)
+		(uuid "0a340a39-5f12-4ccb-83ec-bfd569fdea30")
+	)
 	(text "CAN"
 		(exclude_from_sim no)
 		(at 169.418 18.288 0)
@@ -3635,6 +3906,17 @@
 			)
 		)
 		(uuid "301ef7a5-6209-4d0b-a895-b7175ec6651e")
+	)
+	(text "FCM1608KF-601T03\n600 Ω @ 100 MHz, low DC resistance\nFrom ST datasheet and BOM"
+		(exclude_from_sim no)
+		(at 65.278 46.736 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.0794)
+			)
+		)
+		(uuid "672785eb-1b7a-4fa3-b6dc-7012d6dc6e5a")
 	)
 	(text "SPI2 Memory"
 		(exclude_from_sim no)
@@ -3691,16 +3973,15 @@
 		)
 		(uuid "baa3c6fc-7a70-4e51-aeb3-479b6c459f12")
 	)
-	(text "120R at 100 MHz"
+	(text "ABM8W-24.0000MHZ-6-D1X-T3"
 		(exclude_from_sim no)
-		(at 43.688 38.608 0)
+		(at 33.02 121.92 0)
 		(effects
 			(font
-				(size 0.762 0.762)
-				(thickness 0.0953)
+				(size 1.27 1.27)
 			)
 		)
-		(uuid "d7ebb13c-e9f4-4179-939b-b304e8d925b8")
+		(uuid "d37624df-ccf2-4d1a-8956-4ac48022d92b")
 	)
 	(text "Memory"
 		(exclude_from_sim no)
@@ -3762,6 +4043,12 @@
 		(uuid "3dd0281b-2ded-4824-a44a-3d5ba9895164")
 	)
 	(junction
+		(at 50.8 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40894111-671c-4a3e-be3c-f1bcfea5cfeb")
+	)
+	(junction
 		(at 39.37 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3778,12 +4065,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50e06f62-f02d-466e-a6ae-744303c1c31c")
-	)
-	(junction
-		(at 41.91 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56213390-cd3d-40b2-bbda-642831d0c012")
 	)
 	(junction
 		(at 52.07 34.29)
@@ -4341,7 +4622,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 119.38) (xy 41.91 120.65)
+			(xy 50.8 119.38) (xy 50.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4368,16 +4649,6 @@
 			(type default)
 		)
 		(uuid "22c57f6e-e88e-4013-9a63-ef7e0ccfb11e")
-	)
-	(wire
-		(pts
-			(xy 41.91 119.38) (xy 50.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ceb576-464e-4ddb-9c11-75d9ce0c2b2b")
 	)
 	(wire
 		(pts
@@ -4771,7 +5042,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 119.38) (xy 40.64 119.38)
+			(xy 40.64 119.38) (xy 50.8 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8075,71 +8346,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 21.59 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10cd151c-e1b1-4c6b-9906-28a5e698741f")
-		(property "Reference" "#PWR06"
-			(at 21.59 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VREF"
-			(at 21.59 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 21.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a997cc27-e4a7-4ce0-8bbd-39b2bfc85d1f")
-		)
-		(instances
-			(project "FCU_v1"
-				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/49a0dd31-47d8-444f-83f4-146323747dbb"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 171.45 157.48 90)
 		(mirror x)
@@ -8228,7 +8434,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "6p8"
 			(at 46.736 116.586 0)
 			(effects
 				(font
@@ -8237,7 +8443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 110.49 0)
 			(effects
 				(font
@@ -8281,7 +8487,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 41.91 120.65 0)
+		(at 50.8 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8290,7 +8496,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d4cff3d-8a31-4ede-b49e-6ae65da98046")
 		(property "Reference" "#PWR010"
-			(at 41.91 127 0)
+			(at 50.8 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8505,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 125.73 0)
+			(at 50.8 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 120.65 0)
+			(at 50.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +8523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 120.65 0)
+			(at 50.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 41.91 120.65 0)
+			(at 50.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +9266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 245.872 60.96 90)
 			(effects
 				(font
@@ -9471,7 +9677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 248.412 34.29 90)
 			(effects
 				(font
@@ -9610,7 +9816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.2552 35.56 0)
 			(effects
 				(font
@@ -10078,7 +10284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 245.872 34.29 90)
 			(effects
 				(font
@@ -10208,7 +10414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "6p8"
 			(at 26.416 116.586 0)
 			(effects
 				(font
@@ -10217,7 +10423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 31.4452 110.49 0)
 			(effects
 				(font
@@ -10633,6 +10839,146 @@
 			(project "FCU_v1"
 				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/49a0dd31-47d8-444f-83f4-146323747dbb"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:TCAN3414DR")
+		(at 153.67 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78d9c086-57af-4177-8d0d-665bdd340f18")
+		(property "Reference" "IC2"
+			(at 172.3233 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCAN3414DR"
+			(at 172.3233 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-8N"
+			(at 182.88 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3414.pdf?ts=1713723144569&ref_url=https%253A%252F%252Fwww.mouser.ch%252F"
+			(at 182.88 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3-V CAN FD transceiver with shut-down and standby mode"
+			(at 153.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 182.88 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TCAN3414DR"
+			(at 182.88 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3414DR?qs=mELouGlnn3egF2AojRJddw%3D%3D"
+			(at 182.88 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 182.88 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TCAN3414DR"
+			(at 182.88 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "51d28978-0136-466e-ac7e-30cd94b83f1d")
+		)
+		(pin "4"
+			(uuid "4fd18c05-acaf-41f4-a8d6-2665d8c31607")
+		)
+		(pin "5"
+			(uuid "fc6ea4e6-f318-45ba-a041-08a0230a8f49")
+		)
+		(pin "2"
+			(uuid "6b3ae04e-bcd1-4f48-8b1e-380debc15aee")
+		)
+		(pin "1"
+			(uuid "cda3a616-005c-40d8-8df2-243dab01d957")
+		)
+		(pin "8"
+			(uuid "7bd8dea0-e075-47eb-9893-d721a602eb44")
+		)
+		(pin "7"
+			(uuid "0e25df07-270c-42fb-bdea-10fda5c1c81f")
+		)
+		(pin "6"
+			(uuid "d22180e6-5499-419d-b0f5-221bf049ae7b")
+		)
+		(instances
+			(project ""
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/49a0dd31-47d8-444f-83f4-146323747dbb"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -12004,7 +12350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 66.802 90)
 			(effects
 				(font
@@ -12114,74 +12460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 44.45 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8ac9a8b-d726-4e20-b6ac-cf3895e87170")
-		(property "Reference" "FB1"
-			(at 44.45 40.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R at 100 MHz"
-			(at 42.418 40.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 44.45 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ffe76f6-6a69-42e8-ade5-a2f052679a8b")
-		)
-		(pin "1"
-			(uuid "d09ccb08-5f5a-4bd2-876e-783905da4aed")
-		)
-		(instances
-			(project ""
-				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/49a0dd31-47d8-444f-83f4-146323747dbb"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 180.34 137.16 0)
 		(mirror y)
@@ -12246,6 +12524,74 @@
 			(project "FCU_v1"
 				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/49a0dd31-47d8-444f-83f4-146323747dbb"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 44.45 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d252372b-2480-4fb7-8aee-4a86d7b0042e")
+		(property "Reference" "FB1"
+			(at 47.244 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FCM1608KF-601T03"
+			(at 44.3992 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 44.45 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d66df01c-46ac-47d9-897a-b30b5b822d2d")
+		)
+		(pin "1"
+			(uuid "1ec6532f-8c49-4a56-a2d0-c45849644de1")
+		)
+		(instances
+			(project "FCU_v1"
+				(path "/ace60bf5-8c2a-49e8-98f3-824f03a0dfeb/49a0dd31-47d8-444f-83f4-146323747dbb"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -12335,7 +12681,7 @@
 				)
 			)
 		)
-		(property "Value" "16MHz"
+		(property "Value" "24MHz"
 			(at 46.736 109.474 0)
 			(effects
 				(font
@@ -12893,7 +13239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 248.412 60.96 90)
 			(effects
 				(font
