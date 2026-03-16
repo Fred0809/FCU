@@ -2821,7 +2821,7 @@
 	)
 	(text "PTS526SM15SMTR2_LFS"
 		(exclude_from_sim no)
-		(at 175.006 69.85 0)
+		(at 171.196 67.056 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -5433,10 +5433,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d524a85-de3f-433d-a7db-4a17e32397be")
 		(property "Reference" "S2"
-			(at 167.64 66.04 0)
+			(at 167.64 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,6 +5448,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PTS526SM15SMTR2LFS"
