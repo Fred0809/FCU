@@ -2810,7 +2810,7 @@
 	)
 	(text "Programming/debug connection"
 		(exclude_from_sim no)
-		(at 93.218 114.808 0)
+		(at 74.168 122.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5578,7 +5578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.6752 60.96 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 29.21 82.042 90)
 			(effects
 				(font
